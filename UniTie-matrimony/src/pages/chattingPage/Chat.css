@@ -1,0 +1,72 @@
+.chat-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat-form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dcd8d8;
+  padding: 30px;
+  border-radius: 10px;
+}
+.chat-form-card1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.chat-form-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.chat-form-subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.chat-auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-auth-label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.chat-auth-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.chat-auth-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-auth-button:hover {
+  background-color: #3e8e41;
+}

@@ -1,0 +1,236 @@
+body{
+} 
+
+.link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .link:hover {
+    color: white;
+  }
+  
+  .link:hover::before {
+    content: " Click here to Know more";
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    background-color: black;
+    color: pink;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 12px;
+    z-index: 1;
+  }
+  
+  
+.evback{ 
+    background-image: url("../../../src/images/image12.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    backdrop-filter: blur(1500px); 
+}
+.left{
+    display:flex;
+    align-items: center;
+}
+.tagline{
+    margin-top: 9.5%;
+    margin-left: 1%;
+    margin:1rem;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+    transition: transform .2s;
+} 
+
+.tagline:hover{
+    
+    transform: scale(1.1);
+    color: rgb(241, 67, 61);
+    cursor: pointer;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 250%;
+}
+.logo:hover {
+    animation: rotate-rev 0.7s linear ;
+    cursor: pointer;
+  }
+  @keyframes rotate-rev {
+    to {
+      transform: rotate(-360deg); 
+    }
+}
+
+/* Text Part of EVENTS PAGE */
+.below{
+    background: linear-gradient(to bottom,#FFABAB,rgba(255, 171, 171, 0));
+}
+.text{
+    /* background: linear-gradient(to bottom,#FFABAB,rgba(255, 171, 171, 0)); */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    font-size: 350%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+    text-decoration: none;
+}
+.text2{
+    font-size: 170%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 1.5em;
+}
+.events1{
+    display: flex;
+    /* flex-direction: row; */
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eveimg1 {
+    height: 18em;
+    width: 35em;
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+    transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+@media only screen and (max-width: 768px) {
+    .eveimg1{
+    height:10em;
+    width:25em;
+    }}
+
+
+.eveimg1:hover {
+    transform: scale(1.1); /* Add transform property for the hover effect */
+}
+
+
+.events12{
+    display: flex;
+    flex-direction: column;
+}
+.text3{
+    text-align: center;
+    font-size: 270%;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    /* margin-top: 9%; */
+}
+.text3-1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    /* margin-top: 2%; */
+    padding: 4%;
+    font-size: 170%;
+}
+.events2{
+    display: flex;
+    
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.events22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text4{
+    text-align: center;
+    font-size: 270%;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    /* margin-top: 9%; */
+}
+.text4-1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    /* margin-top: 2%; */
+    padding: 4%;
+    font-size: 170%;
+}
+.eveimg2 {
+    height: 18em;
+    width: 35em;
+    border-top-left-radius: 10em;
+    border-bottom-left-radius: 10em;
+    transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+@media only screen and (max-width: 768px) {
+    .eveimg2{
+    height:10em;
+    width:25em;
+    }}
+.eveimg2:hover {
+    transform: scale(1.1); /* Add transform property for the hover effect */
+}
+
+.events3{
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+.eveimg3 {
+    height: 18em;
+    width: 35em;
+    border-top-right-radius: 10em;
+    border-bottom-right-radius: 10em;
+    transition: all 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+@media only screen and (max-width: 768px) {
+    .eveimg3{
+    height:10em;
+    width:25em;
+    }}
+
+.eveimg3:hover {
+    transform: scale(1.1); /* Add transform property for the hover effect */
+}
+
+.events32{
+    display: flex;
+    flex-direction: column;
+}
+.text5{
+    text-align: center;
+    font-size: 270%;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    /* margin-top: 9%; */
+}
+.text5-1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    /* margin-top: 2%; */
+    padding: 4%;
+    font-size: 170%;
+}
+@media only screen and (max-width: 768px) {
+    
+    body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }

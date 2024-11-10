@@ -1,0 +1,217 @@
+/* Set styles for the slide container */
+
+.slide-container {
+
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  border-radius: 2rem;
+
+  /* background-color: rgb(223, 220, 220); */
+  /* set the background color to dark grey */
+  background-color: rgba(255, 255, 255, 0.5);
+
+  position: relative;
+  /* add position relative to container */
+
+  margin-top: 1rem;
+
+  margin-bottom: 5rem;
+
+}
+
+
+
+/* Set styles for the slide title */
+
+.slide-title {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  margin-bottom: 16px;
+
+}
+
+
+
+/* Set styles for the slide content */
+
+.slide-content {
+
+  font-size: 18px;
+
+  margin-bottom: 32px;
+
+  margin-left: 5rem;
+
+  margin-right: 5rem;
+
+}
+
+
+
+/* Set styles for the arrow buttons */
+
+.arrow-button {
+
+  border: none;
+
+  background-color: black;
+
+  color: pink;
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  position: absolute;
+  /* add position absolute to button */
+
+  top: 50%;
+  /* add top positioning to center the buttons vertically */
+
+  transform: translateY(-50%);
+  /* add transform to center the buttons vertically */
+
+  border-radius: 4rem;
+
+}
+
+
+
+/* Set styles for the left arrow button */
+
+.left-arrow {
+
+  left: 16px;
+  /* add left positioning to move the button to the left corner */
+
+}
+
+
+
+/* Set styles for the right arrow button */
+
+.right-arrow {
+
+  right: 16px;
+  /* add right positioning to move the button to the right corner */
+
+}
+
+
+
+div.testimonials-container {
+
+  margin-left: 5rem;
+
+  margin-right: 5rem;
+
+}
+
+.button-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-top: 20px;
+
+}
+.choose-us-button:hover{
+  transform: scale(1.25);
+}
+
+
+
+.choose-us-button{
+  margin: 0 10px;
+
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+
+  border: none;
+
+  border-radius: 5px;
+
+  background-color: #0077b6;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+.status-button {
+
+  margin: 0 10px;
+
+  margin-top: 20px;
+
+  margin-bottom: 20px;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  background-color: #0077b6;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+
+
+.choose-us-button:hover{
+  background-color: #023e8a;
+
+}
+
+.status-button:hover {
+
+  background-color: #023e8a;
+
+}
+
+.pic {
+
+
+  width: 90px;
+
+  height: 90px;
+
+  border-radius: 50%;
+  transition: transform 0.4s ease-in-out;
+
+
+}
+.pic:hover{
+  transform: scale(1.1);
+}
